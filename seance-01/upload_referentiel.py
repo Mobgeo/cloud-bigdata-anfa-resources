@@ -7,8 +7,8 @@ from pathlib import Path
 import boto3
 from botocore.exceptions import ClientError
 MINIO_ENDPOINT = "http://localhost:9000"
-MINIO_ACCESS_KEY = "AWI7BT5G014AZ99NPS4I"
-MINIO_SECRET_KEY = "ctdOsWfjfsFkFZxrtokbVzBymBTVhnpB8jxtlfGH"
+MINIO_ACCESS_KEY = "anfa-app-key"
+MINIO_SECRET_KEY = "anfa-app-secret-2026"
 BUCKET_NAME = "anfa-raw"
 s3 = boto3.client(
 "s3",
